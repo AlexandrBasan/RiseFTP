@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2009 David Revell
+
+This file is part of RiseFTP.
+
+RiseFTP is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+RiseFTP is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with RiseFTP.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+<string name="name_version">RiseFTP server</string>
+<string name="menu_byline">By ProaLab</string>
+
+<string name="add_user">Добавить пользователя</string>
+<string name="manage_users">Управление пользователями</string>
+
+<string name="swiftp_name">RiseFTP</string>  
+<string name="server_options">Настройки сервера</string>
+
+
+<string name="menu_url">Report bugs: http://www.proalab.com</string>
+<string name="start_server"><b>Старт</b></string>
+<string name="stop_server"><b>Стоп</b></string>
+
+
+<string name="no_url_yet">отсутствует</string>
+<string name="server_status">Статус сервера:</string>
+<string name="my_url_is">Wi-Fi URL:</string>
+<string name="cannot_start_until_wifi">Отсутствует Wi-Fi</string>
+<string name="enable_wifi"><b>Включить Wi-Fi</b></string>
+<string name="disable_wifi">Отключить Wi-Fi</string>
+<string name="wifi_waiting">Ожидаеться включение Wi-Fi</string>
+<string name="wifi_status">Статус Wi-Fi:</string>
+<string name="last_error">Последние ошибки:</string>
+<string name="cant_get_url">неизвестно</string>
+<string name="running">Запускаеться</string>
+<string name="stopped">Останавливаеться</string>
+<string name="unknown">неизвестно</string>
+<string name="session_monitor">Монитор сессии включен:</string>
+<string name="server_log">Лог сервера включен:</string>
+<string name="submit_bug_reports">&quot;Отправить сообщение о ошибке: &quot;</string>
+<string name="ok">OK</string>
+<string name="instructions_label">Инструкция</string>
+<string name="setup_label">Настройки</string>
+<string name="save_settings">Сохранить</string>
+<string name="config_username">Имя пользователя:</string>
+<string name="config_password">Пароль:</string>
+<string name="config_portnum">Номер порта:</string>
+<string name="username_validation_error">Имя пользователя должно содержать 1 или более букв. Другие символы не допускаються.</string>
+<string name="password_validation_error">Пароль должен сожержать 1 или более буквенно-цифровых символов. Другие символы не допускаються.</string>
+<string name="port_validation_error">Номер порта должен быть от 1 до 65535.</string>
+<string name="wifi_state_receiver_label">Wi-Fi Статус приемник</string>
+<string name="enabled">включеноd</string>
+<string name="disabled">отключено</string>
+<string name="waiting">ожидание</string>
+<string name="error_dialog_label">RiseFTP ошибки</string>
+<string name="the_error_was">Ошибки:</string>
+<string name="stay_within_folder">Работа с папкой (e.g. "/sdcard"):</string>
+<string name="cancel">Отмена</string>
+<string name="accept_connections_from_net">Принимать соединения от внешнего прокси сервера</string>
+<string name="accept_connections_from_wifi">Принимать соединения от Wi-Fi</string>
+<string name="stay_awake">Оставлять телефон включенным (полная загрузка CPU)</string>
+<string name="at_least_one_listener">Пожалуйста проверьте включен ли Wi-Fi или сетевое соединение</string>
+<string name="chrootDir_validation_error">Папка для передачи либо не существует либо отсутствуют права на запись.</string> 
+<string name="violates_chroot">550 Server settings prevent leaving directory\r\n</string>
+<string name="must_config">До старта RiseFTP сервера, имя пользователя и пароль должны быть заполнены.</string>
+<string name="notif_server_starting">FTP server запущен</string>
+<string name="notif_title">RiseFTP работает</string>
+<string name="notif_text">RiseFTP принимает FTP соединение.</string>
+<string name="proxy_experimental">Experimental global proxy</string>
+<string name="proxy_status">Статус:</string>
+<string name="proxy_transferred">Использует:</string>
+<string name="proxy_url">URL:</string>
+<!--  pst_xx are proxy states -->
+<string name="pst_initial">none yet</string> 
+<string name="pst_connecting">connecting</string>
+<string name="pst_connected">connected</string>
+<string name="pst_failed">failed</string>
+<string name="pst_unreachable">unreachable</string>
+<string name="pst_disconnected">disconnected</string>
+<string name="proxy_news">News:</string>
+<string name="storage_warning">Предуприждение: Хранилище (или карта памяти) не доступно. Вставьте карту памяти.</string>
+<string name="donation">Proxy servers are expensive, please show your support by donating \
+(www.swiftp.org). The suggested donation is 30 cents per gigabyte of proxy traffic. \
+Thank you!</string>
+<string name="instructions_text">\
+Вы должны ввести имя пользователя и пароль к RiseFTP серверу \
+Вы должны использовать это имя пользователя и пароль для доступа к серверу \
+Настройки можно изменить в любой момент нажав кнопку \
+<b>Настройки</b> на экране статуса сервера.\
+\n\n\
+Настройка (\"Оставлять телефон включенным\") устраняет проблему обрыва соединения при выключении\
+телефона и переходе его в спящий режим. При установке этой галочки телефон не будет уходить в спящий режим пока работает сервер. \
+Для этого установите галочку и запустите сервер повторно. После использования галочку рекомендуется снять. \
+\n\n\
+Для большей безопасности и сохранения ресурсов аккумулятора сервер после использования необходимо остановить.\n\n\
+\
+Спасибо что используете RiseFTP\n\n\
+</string>
+<string name="error_dialog_text">\
+RiseFTP обнаружил следующие ошибки: \n\
+\n\
+<b>%%%Replace_Here%%%</b>\n\
+\n\
+Если вы уверены что данная ошибка не должна была произойти свяжитесь с нами по e-mail \
+<b>mob_dev@proalab.com</b> или зайдите на сайт <b>http://www.proalab.com</b> \n\
+\n\
+Спасибо за вашу помощь!\n\
+\n\
+ProaLab\n\
+</string>
+<string name="config_header">Настройки RiseFTP</string>
+<string name="config_intro">Это главный экран настроек RiseFTP server. \
+Настройки вступят в силу после перезапуска сервреа. Для того чтобы это сделать внесите необходимые изменения \
+в настройки и запустите сервер повторно. Настройки можно изменить в любой момент нажав кнопку \
+<b>Настройки</b> на экране статуса сервера.</string>
+<string name="user_password_intro">Чтобы войти в систему клиент должен предоставить эту информацию.</string>
+<string name="widget_name">RiseFTP Widget</string>
+<string name="about">О нас</string>
+<string name="help">Помощь</string>
+
+<string name="admob_publisher_id">a1519def9e3d079</string>
+
+</resources>
